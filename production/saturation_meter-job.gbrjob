@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2025-12-11T13:58:46+01:00"
+    "CreationDate": "2025-12-11T16:12:32+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -34,9 +34,19 @@
   ],
   "FilesAttributes": [
     {
+      "Path": "saturation_meter-F_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
       "Path": "saturation_meter-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "saturation_meter-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
     },
     {
       "Path": "saturation_meter-B_Mask.gbr",

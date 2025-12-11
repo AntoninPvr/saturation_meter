@@ -3227,6 +3227,12 @@
 		(uuid "76f072d6-b1c6-4706-a60e-936926b2e63f")
 	)
 	(junction
+		(at 256.54 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa61ead-dc76-4a17-a35b-9896954a06ff")
+	)
+	(junction
 		(at 60.96 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3738,6 +3744,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 34.29) (xy 256.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62ab80f2-55c8-459d-8523-3267b8eceefe")
+	)
+	(wire
+		(pts
 			(xy 87.63 156.21) (xy 91.44 156.21)
 		)
 		(stroke
@@ -3995,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "aa8b709f-51f2-40d8-a44f-2776a19c2d1e")
+	)
+	(wire
+		(pts
+			(xy 271.78 36.83) (xy 271.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaca2bc8-07f6-4131-b968-8af073483c3e")
 	)
 	(wire
 		(pts
@@ -4846,6 +4872,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 271.78 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "082c04c2-c6f2-496c-8c28-cea14ca85745")
+		(property "Reference" "#PWR028"
+			(at 271.78 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 271.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb7c6c9f-db43-4aba-a1de-e07c19303cd6")
+		)
+		(instances
+			(project "saturation_meter"
+				(path "/26524b93-4c12-433d-9334-06c7258f4cea"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 256.54 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5308,6 +5400,76 @@
 			(project "saturation_meter"
 				(path "/26524b93-4c12-433d-9334-06c7258f4cea"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 271.78 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "197803ad-4c9b-4d89-a3d5-3e510a1f6b8e")
+		(property "Reference" "R20"
+			(at 274.32 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 274.32 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 273.558 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216d9f55-aafb-4aac-8fae-84213a3bfc3a")
+		)
+		(pin "2"
+			(uuid "6a4e2d01-b77f-426c-8b71-0228bdf3b5fc")
+		)
+		(instances
+			(project "saturation_meter"
+				(path "/26524b93-4c12-433d-9334-06c7258f4cea"
+					(reference "R20")
 					(unit 1)
 				)
 			)
