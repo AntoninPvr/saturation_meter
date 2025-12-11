@@ -504,14 +504,14 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://antoninpvr.kicad_wks"
+    "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
