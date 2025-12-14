@@ -1,0 +1,224 @@
+(footprint "Banana_Jack_2Pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Dual banana socket, footprint - 2 x 6mm drills")
+	(tags "banana socket")
+	(property "Reference" "J2"
+		(at 14.985 -6.24 0)
+		(layer "F.SilkS")
+		(uuid "8ac53bdf-c505-4de0-a7b2-9d3f3f37244c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DUT"
+		(at 14.985 6.29 0)
+		(layer "F.Fab")
+		(uuid "8d66d938-9c4b-4d4e-844c-b57f8e4c4bae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84f36379-bf8f-48bc-874a-54c9e672e641")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "156bf51d-0fce-4dd6-9ead-40370e55237d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 5.25)
+		(end 19 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85ebe237-f043-43d7-b065-6be3e7fcc2d9")
+	)
+	(fp_line
+		(start 19 -5.25)
+		(end 0 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2a7a8bb-3aaa-478e-8c90-7566f36c2e1e")
+	)
+	(fp_arc
+		(start 0 5.25)
+		(mid -5.25 0)
+		(end 0 -5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6613203e-2fc4-4924-b088-1f0390e001e9")
+	)
+	(fp_arc
+		(start 19 -5.25)
+		(mid 24.25 0)
+		(end 19 5.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06fd1771-0743-466c-a435-c3b4ff6e1fca")
+	)
+	(fp_line
+		(start 0 5.5)
+		(end 19 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7aeb76cb-d8c7-4613-9a0a-81b7c0aed079")
+	)
+	(fp_line
+		(start 19 -5.5)
+		(end 0 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06e6e538-e963-4b88-b81c-bf395e26783b")
+	)
+	(fp_arc
+		(start 0 5.5)
+		(mid -5.5 0)
+		(end 0 -5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba379afc-3a48-4a35-8a68-05575413d8f6")
+	)
+	(fp_arc
+		(start 19 -5.5)
+		(mid 24.5 0)
+		(end 19 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d24c87db-ad33-40b7-b154-433a1bbdff00")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "efc95064-a2ba-4dff-ba5b-8a2ead2e54e7")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d705f6ef-0c88-4566-9cfa-8fce307b6010")
+	)
+	(fp_circle
+		(center 19 0)
+		(end 21 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec54dce1-956a-4990-a1a6-3857ca5da0c5")
+	)
+	(fp_circle
+		(center 19 0)
+		(end 23.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "2bfbfd12-8613-4dd1-86dc-0b581008fde3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 14.985 0 0)
+		(layer "F.Fab")
+		(uuid "c676fdf1-c028-42e6-a699-f1b15be6faac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 10.16 10.16)
+		(drill 6.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3cf910fc-b1d1-4e8d-85b0-4c00dd49d4f5")
+	)
+	(pad "2" thru_hole circle
+		(at 19 0)
+		(size 10.16 10.16)
+		(drill 6.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4e06e814-bfde-4f72-b674-e3ebbee998fa")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector.3dshapes/Banana_Jack_2Pin.step"
+		(offset
+			(xyz 14.98599977 0 0)
+		)
+		(scale
+			(xyz 2 2 2)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

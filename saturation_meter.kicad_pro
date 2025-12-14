@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 3.0,
-          "width": 3.0
+          "drill": 0.7,
+          "height": 1.4,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -507,7 +507,7 @@
       "plot": "production/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "saturation_meter.step",
       "svg": "",
       "vrml": ""
     },
@@ -639,7 +639,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://antoninpvr.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "img/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

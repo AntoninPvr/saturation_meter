@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "9.0.6"
     },
-    "CreationDate": "2025-12-11T16:12:32+01:00"
+    "CreationDate": "2025-12-14T21:15:15+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "saturation_meter",
       "GUID": "73617475-7261-4746-996f-6e5f6d657465",
-      "Revision": "1.0.0"
+      "Revision": "1.1.0"
     },
     "Size": {
       "X": 138.05,

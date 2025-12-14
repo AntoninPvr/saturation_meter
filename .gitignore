@@ -38,3 +38,14 @@ fp-info-cache
 
 # Local project settings
 *.kicad_prl
+
+# Plugin settings
+*.ini
+
+# CAD Files sources
+*.SLDPRT
+*.SLDASM
+*.STEP
+*.sldprt
+*.sldasm
+*.step
