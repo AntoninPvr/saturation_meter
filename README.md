@@ -98,7 +98,10 @@ Use the [interactive BOM viewer](ibom.html)
 | U1 | 1 | LF33_TO220 | Package_TO_SOT_THT:TO-220-3_Vertical |
 | U2 | 1 | IR2112 | Package_DIP:DIP-14_W7.62mm |
 
+## Firmware
+
+The firmware is available on its dedicated repository: https://github.com/AntoninPvr/saturation_meter_firmware
+
 ## ToDo
 
-- [ ] Add firmware code
 - [ ] Add test results
